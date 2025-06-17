@@ -1,0 +1,99 @@
+
+        /* ========== Global Styles ========== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #101011;
+    color: #2c3e50;
+}
+
+/* ========== Titles & Headers ========== */
+.big-title {
+    font-size: 46px;
+    font-weight: 800;
+    background: linear-gradient(to right, #4a90e2, #6dd5ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    margin: 40px 0 20px;
+    border-left: 6px solid #4a90e2;
+    padding-left: 12px;
+}
+
+/* ========== Inputs & Text Areas ========== */
+textarea {
+    font-size: 16px !important;
+    padding: 12px !important;
+    border-radius: 12px !important;
+    border: 1px solid #ccd6dd !important;
+    background-color: #ffffffdd !important;
+    transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+textarea:focus {
+    border-color: #4a90e2 !important;
+    box-shadow: 0 0 6px rgba(74, 144, 226, 0.3) !important;
+}
+
+/* ========== Buttons ========== */
+.stButton > button {
+    background: linear-gradient(to right, #4a90e2, #6dd5ed) !important;
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    padding: 12px 24px !important;
+    border-radius: 10px !important;
+    border: none !important;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    filter: brightness(0.95);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Card ========== */
+.card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e3e8ee;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ========== Footer ========== */
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #e1e4e8;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+    .big-title {
+        font-size: 32px;
+    }
+    .section-header {
+        font-size: 22px;
+    }
+    textarea {
+        font-size: 14px !important;
+    }
+}
