@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: ai-hiring-assistant
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run app.py --server.port=10000 --server.address=0.0.0.0
-    envVars:
-      - key: GEMINI_API_KEY
-        value: AIzaSyCpp69PH9cZ3cgipA_KaC15MID9zHq18HY
